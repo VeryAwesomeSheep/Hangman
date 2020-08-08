@@ -4,7 +4,7 @@ import sys
 print("H A N G M A N")
 menu = input('Type "play" to play the game, "exit" to quit: ')
 if menu == "exit":
-    sys.exit
+    sys.exit()
 elif menu == "play":
     word_list = ['python', 'java', 'kotlin', 'javascript']
     word = random.choice(word_list)
